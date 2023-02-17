@@ -1,0 +1,85 @@
+@font-face {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+  /* This centers our sketch vertically. */
+  align-items: center;
+  background: black;
+}
+
+/* i'm using the z index to move the slider on top of the container */
+
+.intro{
+  font-family:Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 50px;
+  margin-left: 10%;
+  margin-top: 10%;
+  margin-right: 10%;
+}
+
+/*LOGO*/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: inherit;
+  position: absolute;
+}
+
+
+/*BEGIN LINK STYLE*/
+
+a:link, a:visited {
+    background-color: transparent;
+    color: white;
+    padding: 15px 32px;
+    -webkit-transition-duration: 0.4s;
+   transition-duration: 0.4s;
+   text-decoration: none;
+   font-size: 30px;
+   cursor: pointer;
+   font-family: Arial, Helvetica, sans-serif;
+   display: inline-block;
+}
+
+.button1{
+    align-items: left;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+
+.button2{
+    align-items: center;
+    margin-left: 27%;
+    margin-top: 1%;
+}
+
+.button3{
+    margin-left: 32%;
+    margin-top: 1%;
+
+}
+
+a.button1:hover, a.button1:active {
+    color: #c7ff02;
+}
+
+a.button2:hover, a.button2:active {
+    color: #c7ff02;
+}
+
+a.button3:hover, a.button3:active {
+    color: #c7ff02;
+}
+
+    /* LIINK END */
+
